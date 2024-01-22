@@ -28,3 +28,8 @@ import 'jest-preset-angular/setup-jest';
 npx jest --init
 ```
 ![](/src/assets/images/step005.png)
+
+## 我们需要为 TypeScript 配置文件安装 ts-node
+```
+npm i ts-node
+```
