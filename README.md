@@ -12,3 +12,8 @@ npm uninstall karma karma-chrome-launcher karma-coverage karma-jasmine karma-jas
 ```
 
 ## 步骤 3：从angular.json文件中删除测试对象
+
+## 第 4 步：安装下面提到的软件包：
+```
+npm i -save-dev jest @types/jest jest-preset-angular
+```
