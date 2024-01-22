@@ -96,3 +96,8 @@ describe('AppComponent', () => {
   });
 });
 ```
+
+## 进行测试
+```
+npm run test:coverage
+```
