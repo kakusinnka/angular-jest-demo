@@ -33,3 +33,5 @@ npx jest --init
 ```
 npm i ts-node
 ```
+
+## Step 7 ： 更新tsconfig.spec.json文件
