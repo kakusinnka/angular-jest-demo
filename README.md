@@ -17,3 +17,8 @@ npm uninstall karma karma-chrome-launcher karma-coverage karma-jasmine karma-jas
 ```
 npm i -save-dev jest @types/jest jest-preset-angular
 ```
+
+## 第 5 步：在根文件夹中创建setup-jest.ts文件
+```
+import 'jest-preset-angular/setup-jest';
+```
