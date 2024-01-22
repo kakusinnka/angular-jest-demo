@@ -10,3 +10,5 @@ ng new angular-jest-demo
 ```
 npm uninstall karma karma-chrome-launcher karma-coverage karma-jasmine karma-jasmine-html-reporter @types/jasmine jasmine-core
 ```
+
+## 步骤 3：从angular.json文件中删除测试对象
