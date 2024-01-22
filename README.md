@@ -15,10 +15,16 @@ npm uninstall karma karma-chrome-launcher karma-coverage karma-jasmine karma-jas
 
 ## 第 4 步：安装下面提到的软件包：
 ```
-npm i -save-dev jest @types/jest jest-preset-angular
+npm i --save-dev jest @types/jest jest-preset-angular
 ```
 
 ## 第 5 步：在根文件夹中创建setup-jest.ts文件
 ```
 import 'jest-preset-angular/setup-jest';
 ```
+
+## 步骤6：要创建jest.config文件，请使用以下命令：
+```
+npx jest --init
+```
+![](/src/assets/images/step005.png)
