@@ -54,3 +54,9 @@ npm i ts-node
 }
 ```
 
+## 第 8 步：在 script 标签内package.json添加 jest 配置
+```
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+```
