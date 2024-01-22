@@ -35,3 +35,22 @@ npm i ts-node
 ```
 
 ## Step 7 ： 更新tsconfig.spec.json文件
+```
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jest" // 1
+    ],
+    "esModuleInterop": true, // 2
+    "emitDecoratorMetadata": true // 3
+  },
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
+```
+
